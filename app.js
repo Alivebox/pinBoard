@@ -28,11 +28,17 @@ Ext.application({
 
     controllers: [
         'MainController',
-        'General'
+        'General',
+        'whiteboard.WhiteBoardController',
+        'whiteboard.NewWhiteBoardController',
+        'whiteboard.EditWhiteBoardController'
     ],
 
     views: [
-        'Main'
+        'Main',
+        'whiteboard.WhiteBoard',
+        'whiteboard.NewWhiteBoard',
+        'whiteboard.EditWhiteBoard'
     ],
 
     stores: [

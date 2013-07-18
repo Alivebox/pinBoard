@@ -15,8 +15,13 @@ config: {
     initialize: function(){
         this.add([
             {
-                xtype: 'label',
-                html: 'lol'
+               xtype: 'whiteboard'
+            },
+            {
+                xtype: 'newwhiteboard'
+            },
+            {
+                xtype: 'editwhiteboard'
             }
         ]);
         this.callParent(arguments);

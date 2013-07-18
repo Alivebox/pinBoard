@@ -20,10 +20,14 @@ Ext.Loader.setPath({
 //</debug>
 
 Ext.application({
-    name: 'pinBoard',
+    name: 'PinBoard',
 
     requires: [
         'Ext.MessageBox'
+    ],
+
+    controllers: [
+        'MainController'
     ],
 
     views: [
@@ -53,7 +57,7 @@ Ext.application({
         Ext.fly('appLoadingIndicator').destroy();
 
         // Initialize the main view
-        Ext.Viewport.add(Ext.create('pinBoard.view.Main'));
+        Ext.Viewport.add(Ext.create('PinBoard.view.Main'));
     },
 
     onUpdated: function() {

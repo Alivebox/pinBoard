@@ -27,11 +27,16 @@ Ext.application({
     ],
 
     controllers: [
-        'MainController'
+        'MainController',
+        'General'
     ],
 
     views: [
         'Main'
+    ],
+
+    stores: [
+        'ImageQueue'
     ],
 
     icon: {

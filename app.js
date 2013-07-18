@@ -28,16 +28,29 @@ Ext.application({
 
     controllers: [
         'MainController',
-        'whiteboard.WhiteBoardController'
-        /*'whiteboard.NewWhiteBoardController',
-        'whiteboard.EditWhiteBoardController'*/
+        'General',
+        'whiteboard.WhiteBoardController',
+        'whiteboard.NewWhiteBoardController',
+        'whiteboard.EditWhiteBoardController'
     ],
 
     views: [
         'Main',
         'whiteboard.WhiteBoard',
         'whiteboard.NewWhiteBoard',
-        'whiteboard.EditWhiteBoard'
+        'whiteboard.EditWhiteBoard',
+        'whiteboard.WhiteBoardList'
+    ],
+
+    models: [
+        'Pin',
+        'WhiteBoard'
+    ],
+
+    stores: [
+        'ImageQueue',
+        'Pins',
+        'WhiteBoards'
     ],
 
     icon: {

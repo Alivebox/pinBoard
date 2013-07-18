@@ -38,11 +38,19 @@ Ext.application({
         'Main',
         'whiteboard.WhiteBoard',
         'whiteboard.NewWhiteBoard',
-        'whiteboard.EditWhiteBoard'
+        'whiteboard.EditWhiteBoard',
+        'whiteboard.WhiteBoardList'
+    ],
+
+    models: [
+        'Pin',
+        'WhiteBoard'
     ],
 
     stores: [
-        'ImageQueue'
+        'ImageQueue',
+        'Pins',
+        'WhiteBoards'
     ],
 
     icon: {

@@ -1,0 +1,37 @@
+.whiteboardListEmptyText {
+    padding: 20px;
+}
+
+.x-list .x-list-disclosure {
+    position: absolute;
+    bottom: 0.7em !important;
+}
+
+.list-item-title{
+    width:100%;
+    font-size:100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-right:25px;
+    color: #545454;
+}
+
+.list-item-narrative{
+    color:#545454;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-right:25px;
+    width: 95%;
+    display: inline-block;
+}
+
+.x-dock.x-unsized > .x-dock-body > *, .x-dock.x-stretched > .x-dock-body > * {
+    max-height: 46px;
+}
+
+.x-item-selected .list-item-narrative {
+    color:#545454 !important;
+}

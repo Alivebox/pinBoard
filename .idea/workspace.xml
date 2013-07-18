@@ -2,16 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="785d66a5-4ff9-48bc-8753-3448f775c049" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controller/MainController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/view/whiteboard/EditWhiteBoard.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controller/whiteboard/EditWhiteBoardController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/view/whiteboard/NewWhiteBoard.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controller/whiteboard/NewWhiteBoardController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/view/whiteboard/WhiteBoard.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controller/whiteboard/WhiteBoardController.js" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\PinBoard\app\controller\Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\PinBoard\app\view\Readme.md" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/Main.js" afterPath="$PROJECT_DIR$/app/view/Main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controller/MainController.js" afterPath="$PROJECT_DIR$/app/controller/MainController.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="pinBoard.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="785d66a5-4ff9-48bc-8753-3448f775c049" time="1374177483144" ignored="false" />
-    <file path="/Main.js" changelist="785d66a5-4ff9-48bc-8753-3448f775c049" time="1374177644664" ignored="false" />
+    <file path="/Main.js" changelist="785d66a5-4ff9-48bc-8753-3448f775c049" time="1374179399869" ignored="false" />
     <file path="/app.js" changelist="785d66a5-4ff9-48bc-8753-3448f775c049" time="1374177875361" ignored="false" />
     <file path="/a.dummy" changelist="785d66a5-4ff9-48bc-8753-3448f775c049" time="1374178086213" ignored="false" />
+    <file path="/index.html" changelist="785d66a5-4ff9-48bc-8753-3448f775c049" time="1374178668631" ignored="false" />
+    <file path="/New.js" changelist="785d66a5-4ff9-48bc-8753-3448f775c049" time="1374178894910" ignored="false" />
+    <file path="/WhiteBoardController.js" changelist="785d66a5-4ff9-48bc-8753-3448f775c049" time="1374179815093" ignored="false" />
+    <file path="/MainController.js" changelist="785d66a5-4ff9-48bc-8753-3448f775c049" time="1374179563451" ignored="false" />
+    <file path="/EditWhiteBoardController.js" changelist="785d66a5-4ff9-48bc-8753-3448f775c049" time="1374179806931" ignored="false" />
+    <file path="/NewWhiteBoardController.js" changelist="785d66a5-4ff9-48bc-8753-3448f775c049" time="1374179811394" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,10 +46,84 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Main.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/view/Main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="20" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="4" selection-start="312" selection-end="312" vertical-scroll-proportion="0.1773913">
+            <state line="30" column="19" selection-start="903" selection-end="913" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WhiteBoard.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/view/whiteboard/WhiteBoard.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="25" selection-start="467" selection-end="467" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NewWhiteBoard.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/view/whiteboard/NewWhiteBoard.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="31" selection-start="628" selection-end="628" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EditWhiteBoard.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/view/whiteboard/EditWhiteBoard.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="16" selection-start="101" selection-end="101" vertical-scroll-proportion="0.059130434">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainController.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controller/MainController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="15" selection-start="261" selection-end="261" vertical-scroll-proportion="-3.7">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NewWhiteBoardController.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controller/whiteboard/NewWhiteBoardController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="3" selection-start="3" selection-end="3" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EditWhiteBoardController.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controller/whiteboard/EditWhiteBoardController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="3" selection-start="3" selection-end="3" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WhiteBoardController.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controller/whiteboard/WhiteBoardController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="3" selection-start="3" selection-end="3" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -58,10 +147,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
+        <option value="$PROJECT_DIR$/app/view/WhiteBoard.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/app/view/New.js" />
+        <option value="$PROJECT_DIR$/app/view/whiteboard/Edit.js" />
+        <option value="$PROJECT_DIR$/app/view/whiteboard/WhiteBoard.js" />
+        <option value="$PROJECT_DIR$/app/controller/whiteboard/WhiteBoard.js" />
+        <option value="$PROJECT_DIR$/app/controller/whiteboard/NewController.js" />
+        <option value="$PROJECT_DIR$/app/view/whiteboard/New.js" />
+        <option value="$PROJECT_DIR$/app/view/whiteboard/EditWhiteBoard.js" />
         <option value="$PROJECT_DIR$/app/view/Main.js" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/app/controller/MainController.js" />
+        <option value="$PROJECT_DIR$/app/view/whiteboard/NewWhiteBoard.js" />
         <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/app/controller/whiteboard/EditWhiteBoardController.js" />
+        <option value="$PROJECT_DIR$/app/controller/whiteboard/NewWhiteBoardController.js" />
+        <option value="$PROJECT_DIR$/app/controller/whiteboard/WhiteBoardController.js" />
       </list>
     </option>
   </component>
@@ -71,6 +172,25 @@
     <option name="y" value="32" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Spelling</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Spelling</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -145,7 +265,69 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pinBoard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PinBoard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="whiteboard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pinBoard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PinBoard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pinBoard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PinBoard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="whiteboard" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -154,12 +336,21 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="Errors" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\PinBoard\app\controller\whiteboard" />
+      <recent name="C:\xampp\htdocs\PinBoard\app\view" />
       <recent name="C:\xampp\htdocs\pinBoard\app\controller" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\PinBoard\app\view\whiteboard" />
     </key>
   </component>
   <component name="RunManager">
@@ -258,9 +449,74 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="15" selection-start="97" selection-end="97" vertical-scroll-proportion="0.123861566">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/whiteboard/WhiteBoard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="25" selection-start="467" selection-end="467" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controller/MainController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="15" selection-start="261" selection-end="261" vertical-scroll-proportion="-3.7">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="4" selection-start="312" selection-end="312" vertical-scroll-proportion="0.1773913">
+        <state line="30" column="19" selection-start="903" selection-end="913" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/Main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="20" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controller/whiteboard/EditWhiteBoardController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="3" selection-start="3" selection-end="3" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controller/whiteboard/NewWhiteBoardController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="3" selection-start="3" selection-end="3" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controller/whiteboard/WhiteBoardController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="3" selection-start="3" selection-end="3" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/whiteboard/NewWhiteBoard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="31" selection-start="628" selection-end="628" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/whiteboard/EditWhiteBoard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="16" selection-start="101" selection-end="101" vertical-scroll-proportion="0.059130434">
           <folding />
         </state>
       </provider>

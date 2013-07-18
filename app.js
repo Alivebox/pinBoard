@@ -27,11 +27,17 @@ Ext.application({
     ],
 
     controllers: [
-        'MainController'
+        'MainController',
+        'whiteboard.WhiteBoardController'
+        /*'whiteboard.NewWhiteBoardController',
+        'whiteboard.EditWhiteBoardController'*/
     ],
 
     views: [
-        'Main'
+        'Main',
+        'whiteboard.WhiteBoard',
+        'whiteboard.NewWhiteBoard',
+        'whiteboard.EditWhiteBoard'
     ],
 
     icon: {

@@ -39,11 +39,11 @@ Ext.define('PinBoard.view.whiteboard.EditWhiteBoard', {
     createMenuContainer: function(){
         var tmpMenuContainer = {
             xtype: 'container',
+            itemId: 'cWhiteBoardImage',
             items: [
                 {
                     xtype: 'label',
-                    itemId: 'whiteboardImage23',
-                    html: '<img src="http://www.sencha.com/img/sencha-large.png" width="100%" height="100%" style="float: center"/>'
+                    itemId: 'whiteboardImage'
                 }
             ]
         };

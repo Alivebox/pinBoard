@@ -41,7 +41,8 @@ Ext.define('PinBoard.view.whiteboard.WhiteBoard', {
                     iconMask: true,
                     text: 'New WhiteBoard',
                     scope: this,
-                    handler: this.onNewWhiteBoard
+                    handler: this.onNewWhiteBoard,
+                    margin: '10 10 10 10'
                 }
             ]
         };

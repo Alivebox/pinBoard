@@ -26,6 +26,8 @@ Ext.application({
         'Ext.MessageBox'
     ],
 
+    myViewPort: undefined,
+
     controllers: [
         'MainController',
         'whiteboard.WhiteBoardController',
@@ -73,7 +75,7 @@ Ext.application({
     launch: function() {
         // Destroy the #appLoadingIndicator element
         Ext.fly('appLoadingIndicator').destroy();
-
+        this.myViewPort = Ext.Viewport;
         // Initialize the main view
         Ext.Viewport.add(Ext.create('PinBoard.view.Main'));
     },

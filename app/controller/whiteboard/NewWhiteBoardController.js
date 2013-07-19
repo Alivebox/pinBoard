@@ -54,6 +54,9 @@ Ext.define('PinBoard.controller.whiteboard.NewWhiteBoardController', {
             name: this.getNewWhiteBoard().down('#whiteBoardName').getValue(),
             imageUrl: this.getNewWhiteBoard().down('#photoUrl').getValue()
         });
+        if(this.whiteBoard == undefined){
+            this.whiteBoard = Ext.create('PinBoard.view.whiteboard.WhiteBoard');
+        }
         this.whiteBoard.setRecord(tmpNewWB);
         this.addWhiteBoardToStore(tmpNewWB);
         this.getMainController().showEditWhiteBoard(tmpNewWB);
@@ -71,9 +74,6 @@ Ext.define('PinBoard.controller.whiteboard.NewWhiteBoardController', {
                 direction: 'DESC'
             }
         ]);
-//        var tmpWhiteBoardList = this.getWhiteBoard().down('#whiteBoardList');
-//        tmpWhiteBoardList.setRecord(argWhiteBoard);
-
     },
 
     getMainController: function(){

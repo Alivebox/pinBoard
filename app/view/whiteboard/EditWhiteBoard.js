@@ -6,13 +6,13 @@ Ext.define('PinBoard.view.whiteboard.EditWhiteBoard', {
     },
 
     initialize: function(){
+        this.callParent(arguments);
         this.header = this.createHeader();
         this.menuContainer = this.createMenuContainer();
         this.add([
             this.header,
             this.menuContainer
         ]);
-        this.callParent(arguments);
     },
 
     createHeader: function(){

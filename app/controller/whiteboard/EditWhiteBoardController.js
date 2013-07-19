@@ -19,6 +19,7 @@ Ext.define('PinBoard.controller.whiteboard.EditWhiteBoardController', {
 
     onTapEditBack:function(){
         this.getMainController().showWhiteBoard();
+        this.getWhiteController().onRefreshList();
     },
 
     getMainController: function(){
@@ -27,5 +28,9 @@ Ext.define('PinBoard.controller.whiteboard.EditWhiteBoardController', {
 
     setWhiteBoardData:function(argWhiteBoard){
         this.getEditWhiteBoard().down('#whiteboardImage').setHtml('<img src="'+argWhiteBoard.data.imageUrl+'"/>');
+    },
+
+    getWhiteController: function(){
+        return this.getApplication().getController('whiteboard.WhiteBoardController');
     }
 });

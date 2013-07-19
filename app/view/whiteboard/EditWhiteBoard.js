@@ -40,9 +40,13 @@ Ext.define('PinBoard.view.whiteboard.EditWhiteBoard', {
         var tmpMenuContainer = {
             xtype: 'container',
             itemId: 'cWhiteBoardImage',
+            fullscreen:true,
             items: [
                 {
-                    xtype: 'label',
+                    xtype: 'panel',
+                    fullscreen: true,
+                    width: '100%',
+                    height: '100%',
                     itemId: 'whiteboardImage'
                 }
             ]

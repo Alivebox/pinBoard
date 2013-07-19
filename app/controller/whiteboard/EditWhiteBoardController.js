@@ -28,7 +28,7 @@ Ext.define('PinBoard.controller.whiteboard.EditWhiteBoardController', {
                         var tmpPoint = Ext.create('Ext.Label', {
                             left: tmpEvent.pageX,
                             top: tmpEvent.pageY - 55,
-                            html: '<img src="resources/icons/blueLocation.png"/>'
+                            html: '<img height="35" width="35" src="resources/icons/blueLocation.png"/>'
                         });
                         tmpCWhiteBoardImage.add(tmpPoint);
                     }
@@ -47,7 +47,7 @@ Ext.define('PinBoard.controller.whiteboard.EditWhiteBoardController', {
     },
 
     setWhiteBoardData:function(argWhiteBoard){
-        this.getEditWhiteBoard().down('#whiteboardImage').setHtml('<img width="100%" height="100%" src="'+ argWhiteBoard.data.imageUrl +'"/>');
+        this.getEditWhiteBoard().down('#whiteboardImage').setHtml('<img height="'+ (window.innerHeight * 2) +'" width="'+ window.innerWidth +'" src="'+ argWhiteBoard.data.imageUrl +'"/>');
     },
 
     getWhiteController: function(){

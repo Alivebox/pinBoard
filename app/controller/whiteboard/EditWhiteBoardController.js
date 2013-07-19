@@ -26,6 +26,6 @@ Ext.define('PinBoard.controller.whiteboard.EditWhiteBoardController', {
     },
 
     setWhiteBoardData:function(argWhiteBoard){
-        this.getEditWhiteBoard().down('#whiteboardImage').setHtml('<img src="'+argWhiteBoard.data.imageUrl+'"/>');
+        this.getEditWhiteBoard().down('#whiteboardImage').setHtml('<img width="100%" height="100%" style="float: center src="'+ argWhiteBoard.data.imageUrl +'"/>');
     }
 });

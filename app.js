@@ -28,7 +28,6 @@ Ext.application({
 
     controllers: [
         'MainController',
-        'General',
         'whiteboard.WhiteBoardController',
         'whiteboard.NewWhiteBoardController',
         'whiteboard.EditWhiteBoardController'

@@ -19,8 +19,18 @@ Ext.define('PinBoard.view.whiteboard.EditWhiteBoard', {
         var tmpHeader = {
             xtype : 'toolbar',
             docked: 'top',
-            title: 'WhiteBoards',
+            title: 'Edit WhiteBoard',
             items: [
+                {
+                    xtype: 'button',
+                    text: 'Back',
+                    listeners: {
+                        scope: this,
+                        tap: function(){
+                            this.fireEvent('tapEditBack')
+                        }
+                    }
+                }
             ]
         };
         return tmpHeader;
@@ -29,7 +39,15 @@ Ext.define('PinBoard.view.whiteboard.EditWhiteBoard', {
     createMenuContainer: function(){
         var tmpMenuContainer = {
             xtype: 'container',
+            width: '100%',
+            height: '100%',
             items: [
+                {
+                    xtype: 'label',
+                    width: '100%',
+                    height: '100%',
+                    itemId: 'whiteboardImage'
+                }
             ]
         };
         return tmpMenuContainer;

@@ -40,8 +40,39 @@ Ext.define('PinBoard.view.whiteboard.NewWhiteBoard', {
         var tmpMenuContainer = {
             xtype: 'container',
             items: [
+                {
+                    xtype:'button',
+                    itemId: 'takePhoto',
+                    text: 'Take a Photo',
+                    scope: this,
+                    handler: this.onTakePhoto
+                },{
+                    xtype: 'textfield',
+                    label: 'Photo Url',
+                    itemId: 'photoUrl',
+                    scope: this
+                },{
+                    xtype: 'textfield',
+                    label: 'White Board Name',
+                    itemId: 'whiteBoardName',
+                    scope: this
+                },{
+                    xtype:'button',
+                    itemId: 'saveButton',
+                    text: 'Save',
+                    scope: this,
+                    handler: this.onSaveWhiteboard
+                }
             ]
         };
         return tmpMenuContainer;
+    },
+
+    onTakePhoto: function(){
+        this.fireEvent('takePhoto')
+    },
+
+    onSaveWhiteboard:function(){
+        this.fireEvent('saveWhiteBoard')
     }
 });

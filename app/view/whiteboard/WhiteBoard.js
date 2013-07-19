@@ -51,19 +51,19 @@ Ext.define('PinBoard.view.whiteboard.WhiteBoard', {
     createWhiteboardList: function(){
         var tmpList = {
             xtype: 'whiteboardlist',
-            name: 'whiteBoardList',
+            itemId: 'whiteBoardList',
             store: Ext.getStore("WhiteBoards"),
             listeners: {
                 scope: this,
-                itemtap: this.onEditNote,
+                itemtap: this.onEditWhiteBoard,
                 refresh: this.onRefreshData
             }
         };
         return tmpList;
     },
 
-    onEditNote: function(argList,argIndex,argTarget,argNote,argE,eOpts){
-        this.fireEvent("editWhiteBoard",argNote);
+    onEditWhiteBoard: function(argList,argIndex,argTarget,argWhiteBoard,argE,eOpts){
+        this.fireEvent("editWhiteBoard",argWhiteBoard);
     },
 
     onRefreshData: function(argList,eOpts){

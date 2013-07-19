@@ -13,8 +13,18 @@ Ext.define("PinBoard.view.whiteboard.WhiteBoardList", {
 
     config: {
         loadingText: 'Loading your whiteboards...',
-        grouped: true
-
+        grouped: true,
+        emptyText:
+            '<pre>' +
+                '<div>+Empty List</div>' +
+                '</pre>',
+        itemTpl:
+            '<pre>' +
+                '<div>' +
+                '<label class="list-item-narrative">{text}</label>' +
+                '<img class="list-item-icon" src="resources/images/goto_up.png"/>' +
+                '</div>' +
+                '</pre>'
     }
 
 });

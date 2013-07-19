@@ -13,18 +13,13 @@ Ext.define('PinBoard.view.Main', {
         cardSwitchAnimation:'slide'
     },
     initialize: function(){
+        this.callParent(arguments);
         this.add([
             {
                 xtype: 'whiteboard'
-            },
-            {
-                xtype: 'newwhiteboard'
-            },
-            {
-                xtype: 'editwhiteboard'
             }
         ]);
-        this.callParent(arguments);
+
     }
 
 });

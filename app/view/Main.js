@@ -2,20 +2,20 @@ Ext.define('PinBoard.view.Main', {
 
     extend: 'Ext.Container',
     xtype: 'main',
-config: {
-    layout: {
-        type: 'card',
-        animation: {
-            type: 'slide',
-            direction: 'right'
-        }
+    config: {
+        layout: {
+            type: 'card',
+            animation: {
+                type: 'slide',
+                direction: 'right'
+            }
+        },
+        cardSwitchAnimation:'slide'
     },
-    cardSwitchAnimation:'slide'
-},
     initialize: function(){
         this.add([
             {
-               xtype: 'whiteboard'
+                xtype: 'whiteboard'
             },
             {
                 xtype: 'newwhiteboard'

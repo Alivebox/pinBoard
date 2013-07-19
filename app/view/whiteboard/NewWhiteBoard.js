@@ -45,23 +45,29 @@ Ext.define('PinBoard.view.whiteboard.NewWhiteBoard', {
                     itemId: 'takePhoto',
                     text: 'Take a Photo',
                     scope: this,
-                    handler: this.onTakePhoto
+                    handler: this.onTakePhoto,
+                    margin: '10 10 10 10'
                 },{
                     xtype: 'textfield',
                     label: 'Photo Url',
                     itemId: 'photoUrl',
+                    value: 'http://www.mynitor.com/images/google_whiteboard.jpg',
+                    placeHolder: 'Click on take a picture button',
                     scope: this
                 },{
                     xtype: 'textfield',
                     label: 'White Board Name',
                     itemId: 'whiteBoardName',
+                    value: 'My new white board',
+                    placeHolder: 'Add a name',
                     scope: this
                 },{
                     xtype:'button',
                     itemId: 'saveButton',
                     text: 'Save',
                     scope: this,
-                    handler: this.onSaveWhiteboard
+                    handler: this.onSaveWhiteboard,
+                    margin: '10 10 10 10'
                 }
             ]
         };

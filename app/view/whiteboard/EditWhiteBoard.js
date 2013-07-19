@@ -39,6 +39,7 @@ Ext.define('PinBoard.view.whiteboard.EditWhiteBoard', {
     createMenuContainer: function(){
         var tmpMenuContainer = {
             xtype: 'container',
+            itemId: 'cWhiteBoardImage',
             items: [
                 {
                     xtype: 'label',

@@ -26,6 +26,8 @@ Ext.application({
         'Ext.MessageBox'
     ],
 
+    myViewPort: undefined,
+
     controllers: [
         'MainController',
         'whiteboard.WhiteBoardController',
@@ -73,25 +75,9 @@ Ext.application({
     launch: function() {
         // Destroy the #appLoadingIndicator element
         Ext.fly('appLoadingIndicator').destroy();
-
+        this.myViewPort = Ext.Viewport;
         // Initialize the main view
         Ext.Viewport.add(Ext.create('PinBoard.view.Main'));
-        Ext.Viewport.element.on({
-            taphold: function(tmpEvent, tmpNode) {
-                Ext.Msg.prompt('Add a note', '', function(btnConfirm, txtText){
-                    if (btnConfirm == 'ok'){
-                        var tmpPoint = Ext.create('Ext.Label', {
-                            left: tmpEvent.pageX,
-                            top: tmpEvent.pageY,
-                            icon: 'resources/icons/blueLocation.png'
-                        });
-                        Ext.Viewport.add(tmpPoint);
-                        this.fireEvent('appEvent');
-                        Ext.app.Controller.getViews('whiteboard.EditWhiteBoard');
-                    }
-                });
-            }
-        });
     },
 
     onUpdated: function() {

@@ -7,6 +7,7 @@ Ext.define('PinBoard.controller.whiteboard.EditWhiteBoardController', {
 
     config: {
         refs: {
+            whiteBoard: 'whiteboard',
             editWhiteBoard: 'editwhiteboard'
         },
 

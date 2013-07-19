@@ -23,7 +23,8 @@ Ext.application({
     name: 'PinBoard',
 
     requires: [
-        'Ext.MessageBox'
+        'Ext.MessageBox',
+        'Ext.Label'
     ],
 
     myViewPort: undefined,

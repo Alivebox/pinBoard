@@ -50,12 +50,6 @@ Ext.define('PinBoard.view.whiteboard.WhiteBoard', {
     },
 
     createWhiteboardList: function(){
-        var tmpNewList = Ext.create('Ext.List', {
-            itemId: 'newWhiteBoardList',
-            fullscreen: true,
-            itemTpl: '<div class="contact">{name}</div>',
-            store: Ext.getStore("WhiteBoards")
-        });
         var tmpList = {
             xtype: 'whiteboardlist',
             itemId: 'whiteBoardList',
@@ -66,7 +60,7 @@ Ext.define('PinBoard.view.whiteboard.WhiteBoard', {
                 refresh: this.onRefreshData
             }
         };
-        return tmpNewList;
+        return tmpList;
     },
 
     onEditWhiteBoard: function(argList,argIndex,argTarget,argWhiteBoard,argE,eOpts){

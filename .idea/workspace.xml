@@ -2,9 +2,131 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="785d66a5-4ff9-48bc-8753-3448f775c049" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controller/whiteboard/EditWhiteBoardController.js" afterPath="$PROJECT_DIR$/app/controller/whiteboard/EditWhiteBoardController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/whiteboard/WhiteBoard.js" afterPath="$PROJECT_DIR$/app/view/whiteboard/WhiteBoard.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\pinBoard\.idea\encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\pinBoard\.idea\misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\pinBoard\.idea\modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\pinBoard\.idea\pinBoard.iml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\pinBoard\.idea\scopes\scope_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\pinBoard\.idea\vcs.xml" afterPath="" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\pinBoard\resources\sass\.sass-cache\07556370689701fbff4c2bb92287cc195eb971e8\_float.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/5ee77f1da8134ea2a40aa09d040ec2bbf4b4e85e/_float.scssc" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\pinBoard\resources\sass\.sass-cache\07556370689701fbff4c2bb92287cc195eb971e8\_hacks.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/5ee77f1da8134ea2a40aa09d040ec2bbf4b4e85e/_hacks.scssc" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\pinBoard\resources\sass\.sass-cache\834a20022828dea1586c782c51b9da341f72c274\_link-colors.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/a620f01e644b54dcc1ef64d791b1bf9dfe87f702/_link-colors.scssc" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\pinBoard\resources\sass\.sass-cache\84674e6b5b707c631c8bb9637aa5d1524e63aa0b\_colors.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/4a727a2d6b6a2f8a5e74d3eff8bb421d2bd5630b/_colors.scssc" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\pinBoard\resources\sass\.sass-cache\84674e6b5b707c631c8bb9637aa5d1524e63aa0b\_typography.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/4a727a2d6b6a2f8a5e74d3eff8bb421d2bd5630b/_typography.scssc" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\pinBoard\resources\sass\.sass-cache\b5e4f1b8daca729fdc82c29b60d64b43fff4dbe5\_appearance.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/3ca6d453290ca3ee660f33b1930f5df0c2ab4ef7/_appearance.scssc" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\pinBoard\resources\sass\.sass-cache\b5e4f1b8daca729fdc82c29b60d64b43fff4dbe5\_background-clip.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/3ca6d453290ca3ee660f33b1930f5df0c2ab4ef7/_background-clip.scssc" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\pinBoard\resources\sass\.sass-cache\b5e4f1b8daca729fdc82c29b60d64b43fff4dbe5\_background-origin.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/3ca6d453290ca3ee660f33b1930f5df0c2ab4ef7/_background-origin.scssc" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\pinBoard\resources\sass\.sass-cache\b5e4f1b8daca729fdc82c29b60d64b43fff4dbe5\_background-size.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/3ca6d453290ca3ee660f33b1930f5df0c2ab4ef7/_background-size.scssc" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\pinBoard\resources\sass\.sass-cache\b5e4f1b8daca729fdc82c29b60d64b43fff4dbe5\_border-radius.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/3ca6d453290ca3ee660f33b1930f5df0c2ab4ef7/_border-radius.scssc" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\pinBoard\resources\sass\.sass-cache\b5e4f1b8daca729fdc82c29b60d64b43fff4dbe5\_box-shadow.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/3ca6d453290ca3ee660f33b1930f5df0c2ab4ef7/_box-shadow.scssc" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\pinBoard\resources\sass\.sass-cache\b5e4f1b8daca729fdc82c29b60d64b43fff4dbe5\_box-sizing.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/3ca6d453290ca3ee660f33b1930f5df0c2ab4ef7/_box-sizing.scssc" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\pinBoard\resources\sass\.sass-cache\b5e4f1b8daca729fdc82c29b60d64b43fff4dbe5\_box.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/3ca6d453290ca3ee660f33b1930f5df0c2ab4ef7/_box.scssc" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\pinBoard\resources\sass\.sass-cache\b5e4f1b8daca729fdc82c29b60d64b43fff4dbe5\_columns.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/3ca6d453290ca3ee660f33b1930f5df0c2ab4ef7/_columns.scssc" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\pinBoard\resources\sass\.sass-cache\b5e4f1b8daca729fdc82c29b60d64b43fff4dbe5\_filter.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/3ca6d453290ca3ee660f33b1930f5df0c2ab4ef7/_filter.scssc" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\pinBoard\resources\sass\.sass-cache\b5e4f1b8daca729fdc82c29b60d64b43fff4dbe5\_font-face.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/3ca6d453290ca3ee660f33b1930f5df0c2ab4ef7/_font-face.scssc" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\pinBoard\resources\sass\.sass-cache\b5e4f1b8daca729fdc82c29b60d64b43fff4dbe5\_hyphenation.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/3ca6d453290ca3ee660f33b1930f5df0c2ab4ef7/_hyphenation.scssc" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\pinBoard\resources\sass\.sass-cache\b5e4f1b8daca729fdc82c29b60d64b43fff4dbe5\_images.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/3ca6d453290ca3ee660f33b1930f5df0c2ab4ef7/_images.scssc" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\pinBoard\resources\sass\.sass-cache\b5e4f1b8daca729fdc82c29b60d64b43fff4dbe5\_inline-block.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/3ca6d453290ca3ee660f33b1930f5df0c2ab4ef7/_inline-block.scssc" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\pinBoard\resources\sass\.sass-cache\b5e4f1b8daca729fdc82c29b60d64b43fff4dbe5\_opacity.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/3ca6d453290ca3ee660f33b1930f5df0c2ab4ef7/_opacity.scssc" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\pinBoard\resources\sass\.sass-cache\b5e4f1b8daca729fdc82c29b60d64b43fff4dbe5\_regions.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/3ca6d453290ca3ee660f33b1930f5df0c2ab4ef7/_regions.scssc" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\pinBoard\resources\sass\.sass-cache\b5e4f1b8daca729fdc82c29b60d64b43fff4dbe5\_shared.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/3ca6d453290ca3ee660f33b1930f5df0c2ab4ef7/_shared.scssc" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\pinBoard\resources\sass\.sass-cache\b5e4f1b8daca729fdc82c29b60d64b43fff4dbe5\_text-shadow.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/3ca6d453290ca3ee660f33b1930f5df0c2ab4ef7/_text-shadow.scssc" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\pinBoard\resources\sass\.sass-cache\b5e4f1b8daca729fdc82c29b60d64b43fff4dbe5\_transform.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/3ca6d453290ca3ee660f33b1930f5df0c2ab4ef7/_transform.scssc" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\pinBoard\resources\sass\.sass-cache\b5e4f1b8daca729fdc82c29b60d64b43fff4dbe5\_transition.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/3ca6d453290ca3ee660f33b1930f5df0c2ab4ef7/_transition.scssc" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\pinBoard\resources\sass\.sass-cache\f215ee2dbd60b4d64cd26193bab0521af5001471\_css3.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/143f0ca9e18aba2524288185c1b68570cad19ba1/_css3.scssc" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\pinBoard\resources\sass\.sass-cache\f215ee2dbd60b4d64cd26193bab0521af5001471\_support.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/143f0ca9e18aba2524288185c1b68570cad19ba1/_support.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/db8c39d69cf4a3d605aee46c4f2c776fa80f126c/_AbstractChart.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/db8c39d69cf4a3d605aee46c4f2c776fa80f126c/_AbstractChart.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/b6ad7467a9c64f50168f8aadc3c9bd36ef778037/_Box.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/b6ad7467a9c64f50168f8aadc3c9bd36ef778037/_Box.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/67351329dbdfe20aab984b0dc0b95a3b6c295b86/_Button.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/67351329dbdfe20aab984b0dc0b95a3b6c295b86/_Button.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/9d8687ee08634c2f885e6e295b3aff4074cef34e/_Button.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/9d8687ee08634c2f885e6e295b3aff4074cef34e/_Button.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/eb6ad7f1a29e8b859b7794ee0cc47d9dfdb9e804/_Button.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/eb6ad7f1a29e8b859b7794ee0cc47d9dfdb9e804/_Button.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/3dc2eb21d8cf244453279aff776ae419d156b1f7/_Carousel.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/3dc2eb21d8cf244453279aff776ae419d156b1f7/_Carousel.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/9c5eb08bf241ddcc3844f98e9f1630996f0dda10/_Carousel.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/9c5eb08bf241ddcc3844f98e9f1630996f0dda10/_Carousel.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/975929b60bfb40de9f412f0fd46b4decef31daec/_Checkbox.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/975929b60bfb40de9f412f0fd46b4decef31daec/_Checkbox.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/71df0bdc8b4c66bd6f1d4a4d6e7cb6e77e51bf57/_Class.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/71df0bdc8b4c66bd6f1d4a4d6e7cb6e77e51bf57/_Class.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/9d8687ee08634c2f885e6e295b3aff4074cef34e/_Class.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/9d8687ee08634c2f885e6e295b3aff4074cef34e/_Class.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/dc608a895244b09b37a93867bc0a39c2f16a3fbe/_Class.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/dc608a895244b09b37a93867bc0a39c2f16a3fbe/_Class.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/eb6ad7f1a29e8b859b7794ee0cc47d9dfdb9e804/_Class.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/eb6ad7f1a29e8b859b7794ee0cc47d9dfdb9e804/_Class.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/b6ad7467a9c64f50168f8aadc3c9bd36ef778037/_Dock.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/b6ad7467a9c64f50168f8aadc3c9bd36ef778037/_Dock.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/45d1faefe700ba634008d063d86b629fdeb52259/_Field.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/45d1faefe700ba634008d063d86b629fdeb52259/_Field.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/975929b60bfb40de9f412f0fd46b4decef31daec/_Field.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/975929b60bfb40de9f412f0fd46b4decef31daec/_Field.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/18aa54af6bdaaf9ff310630aa3497c39923a3007/_FieldSet.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/18aa54af6bdaaf9ff310630aa3497c39923a3007/_FieldSet.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/b5efd88fd3614adebbb5c9f009e3f5146f419886/_FieldSet.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/b5efd88fd3614adebbb5c9f009e3f5146f419886/_FieldSet.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/b6ad7467a9c64f50168f8aadc3c9bd36ef778037/_Fit.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/b6ad7467a9c64f50168f8aadc3c9bd36ef778037/_Fit.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/b6ad7467a9c64f50168f8aadc3c9bd36ef778037/_Float.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/b6ad7467a9c64f50168f8aadc3c9bd36ef778037/_Float.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/6ad71d7aa3ffab2ca7f65783a663acfd2bac335f/_IndexBar.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/6ad71d7aa3ffab2ca7f65783a663acfd2bac335f/_IndexBar.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/c7f098f8658b8cbb5a1a00a38aee0f6f2670d26a/_IndexBar.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/c7f098f8658b8cbb5a1a00a38aee0f6f2670d26a/_IndexBar.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/6ad71d7aa3ffab2ca7f65783a663acfd2bac335f/_List.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/6ad71d7aa3ffab2ca7f65783a663acfd2bac335f/_List.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/c7f098f8658b8cbb5a1a00a38aee0f6f2670d26a/_List.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/c7f098f8658b8cbb5a1a00a38aee0f6f2670d26a/_List.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/67351329dbdfe20aab984b0dc0b95a3b6c295b86/_Mask.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/67351329dbdfe20aab984b0dc0b95a3b6c295b86/_Mask.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/67351329dbdfe20aab984b0dc0b95a3b6c295b86/_MessageBox.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/67351329dbdfe20aab984b0dc0b95a3b6c295b86/_MessageBox.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/eb6ad7f1a29e8b859b7794ee0cc47d9dfdb9e804/_MessageBox.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/eb6ad7f1a29e8b859b7794ee0cc47d9dfdb9e804/_MessageBox.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/675218de1db2d76a310fb1515bbf1a51c7d4f1dc/_PaintMonitor.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/675218de1db2d76a310fb1515bbf1a51c7d4f1dc/_PaintMonitor.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/18aa54af6bdaaf9ff310630aa3497c39923a3007/_Panel.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/18aa54af6bdaaf9ff310630aa3497c39923a3007/_Panel.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/4bf02de9ced1f93ad58e74f9a4e77f9c4e399742/_Panel.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/4bf02de9ced1f93ad58e74f9a4e77f9c4e399742/_Panel.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/67351329dbdfe20aab984b0dc0b95a3b6c295b86/_Panel.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/67351329dbdfe20aab984b0dc0b95a3b6c295b86/_Panel.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/922c2bce642a32d065c149405938a6fa724e19e7/_Panel.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/922c2bce642a32d065c149405938a6fa724e19e7/_Panel.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/92f3fc85116725926a951b322796a186a936542d/_Panel.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/92f3fc85116725926a951b322796a186a936542d/_Panel.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/9d8687ee08634c2f885e6e295b3aff4074cef34e/_Panel.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/9d8687ee08634c2f885e6e295b3aff4074cef34e/_Panel.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/b5efd88fd3614adebbb5c9f009e3f5146f419886/_Panel.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/b5efd88fd3614adebbb5c9f009e3f5146f419886/_Panel.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/eb6ad7f1a29e8b859b7794ee0cc47d9dfdb9e804/_Panel.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/eb6ad7f1a29e8b859b7794ee0cc47d9dfdb9e804/_Panel.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/ac384161cdb9ea7bcbb2831ee608df3bd9bb3f71/_Picker.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/ac384161cdb9ea7bcbb2831ee608df3bd9bb3f71/_Picker.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/b80961206e69c5c344325bd50aaaa7b2fca076b1/_Picker.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/b80961206e69c5c344325bd50aaaa7b2fca076b1/_Picker.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/e16bf26a999f45109e0c8f159ab8cfdf8d7d5a86/_Picker.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/e16bf26a999f45109e0c8f159ab8cfdf8d7d5a86/_Picker.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/3b99859745664a5880c3d6601451a41a3b253952/_PullRefresh.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/3b99859745664a5880c3d6601451a41a3b253952/_PullRefresh.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/9005a596dd1b5b41f4e44a27f98f1a14f572673d/_PullRefresh.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/9005a596dd1b5b41f4e44a27f98f1a14f572673d/_PullRefresh.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/975929b60bfb40de9f412f0fd46b4decef31daec/_Radio.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/975929b60bfb40de9f412f0fd46b4decef31daec/_Radio.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/36c6457e106b7d6f01559ffcb8dce3c8dcc59acf/_Scroller.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/36c6457e106b7d6f01559ffcb8dce3c8dcc59acf/_Scroller.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/975929b60bfb40de9f412f0fd46b4decef31daec/_Select.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/975929b60bfb40de9f412f0fd46b4decef31daec/_Select.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/eb6ad7f1a29e8b859b7794ee0cc47d9dfdb9e804/_Sheet.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/eb6ad7f1a29e8b859b7794ee0cc47d9dfdb9e804/_Sheet.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/675218de1db2d76a310fb1515bbf1a51c7d4f1dc/_SizeMonitor.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/675218de1db2d76a310fb1515bbf1a51c7d4f1dc/_SizeMonitor.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/4cb80f30502168135efe713a5328306e1ca0db89/_Slider.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/4cb80f30502168135efe713a5328306e1ca0db89/_Slider.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/5b95e76826cfb60679e5cb9c6178e2185ba7932c/_Slider.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/5b95e76826cfb60679e5cb9c6178e2185ba7932c/_Slider.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/975929b60bfb40de9f412f0fd46b4decef31daec/_Slider.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/975929b60bfb40de9f412f0fd46b4decef31daec/_Slider.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/45d1faefe700ba634008d063d86b629fdeb52259/_Spinner.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/45d1faefe700ba634008d063d86b629fdeb52259/_Spinner.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/975929b60bfb40de9f412f0fd46b4decef31daec/_Spinner.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/975929b60bfb40de9f412f0fd46b4decef31daec/_Spinner.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/45d1faefe700ba634008d063d86b629fdeb52259/_TextArea.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/45d1faefe700ba634008d063d86b629fdeb52259/_TextArea.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/975929b60bfb40de9f412f0fd46b4decef31daec/_TextArea.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/975929b60bfb40de9f412f0fd46b4decef31daec/_TextArea.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/45d1faefe700ba634008d063d86b629fdeb52259/_Toggle.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/45d1faefe700ba634008d063d86b629fdeb52259/_Toggle.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/5b95e76826cfb60679e5cb9c6178e2185ba7932c/_Toggle.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/5b95e76826cfb60679e5cb9c6178e2185ba7932c/_Toggle.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/67351329dbdfe20aab984b0dc0b95a3b6c295b86/_Toolbar.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/67351329dbdfe20aab984b0dc0b95a3b6c295b86/_Toolbar.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/9d8687ee08634c2f885e6e295b3aff4074cef34e/_Toolbar.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/9d8687ee08634c2f885e6e295b3aff4074cef34e/_Toolbar.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/eb6ad7f1a29e8b859b7794ee0cc47d9dfdb9e804/_Toolbar.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/eb6ad7f1a29e8b859b7794ee0cc47d9dfdb9e804/_Toolbar.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/675218de1db2d76a310fb1515bbf1a51c7d4f1dc/_Translatable.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/675218de1db2d76a310fb1515bbf1a51c7d4f1dc/_Translatable.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/e0dfcb30867104410b60c3270258d275231b3ba8/_blueprint-grid.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/e0dfcb30867104410b60c3270258d275231b3ba8/_blueprint-grid.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/e0dfcb30867104410b60c3270258d275231b3ba8/_carbon-fiber.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/e0dfcb30867104410b60c3270258d275231b3ba8/_carbon-fiber.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/e0dfcb30867104410b60c3270258d275231b3ba8/_checkerboard.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/e0dfcb30867104410b60c3270258d275231b3ba8/_checkerboard.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/e0dfcb30867104410b60c3270258d275231b3ba8/_cicada.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/e0dfcb30867104410b60c3270258d275231b3ba8/_cicada.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/38ae2f12519967bbbecb7fe12ef365520f673c06/_color.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/38ae2f12519967bbbecb7fe12ef365520f673c06/_color.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/e0dfcb30867104410b60c3270258d275231b3ba8/_gradients.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/e0dfcb30867104410b60c3270258d275231b3ba8/_gradients.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/e0dfcb30867104410b60c3270258d275231b3ba8/_houndstooth.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/e0dfcb30867104410b60c3270258d275231b3ba8/_houndstooth.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/e0dfcb30867104410b60c3270258d275231b3ba8/_lined-paper.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/e0dfcb30867104410b60c3270258d275231b3ba8/_lined-paper.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/e0dfcb30867104410b60c3270258d275231b3ba8/_madras.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/e0dfcb30867104410b60c3270258d275231b3ba8/_madras.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/e0dfcb30867104410b60c3270258d275231b3ba8/_noise.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/e0dfcb30867104410b60c3270258d275231b3ba8/_noise.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/e0dfcb30867104410b60c3270258d275231b3ba8/_polka-dot.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/e0dfcb30867104410b60c3270258d275231b3ba8/_polka-dot.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/e0dfcb30867104410b60c3270258d275231b3ba8/_radial-overlay.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/e0dfcb30867104410b60c3270258d275231b3ba8/_radial-overlay.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/e0dfcb30867104410b60c3270258d275231b3ba8/_striped.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/e0dfcb30867104410b60c3270258d275231b3ba8/_striped.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/e0dfcb30867104410b60c3270258d275231b3ba8/_stripes.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/e0dfcb30867104410b60c3270258d275231b3ba8/_stripes.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/e0dfcb30867104410b60c3270258d275231b3ba8/_tablecloth.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/e0dfcb30867104410b60c3270258d275231b3ba8/_tablecloth.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/e0dfcb30867104410b60c3270258d275231b3ba8/_tartan.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/e0dfcb30867104410b60c3270258d275231b3ba8/_tartan.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/40c5e09e8c731170044ad2eabaca92a2033536bf/app.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/40c5e09e8c731170044ad2eabaca92a2033536bf/app.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/b6ad7467a9c64f50168f8aadc3c9bd36ef778037/_Card.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/b6ad7467a9c64f50168f8aadc3c9bd36ef778037/_Card.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/67351329dbdfe20aab984b0dc0b95a3b6c295b86/_Img.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/67351329dbdfe20aab984b0dc0b95a3b6c295b86/_Img.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/3b99859745664a5880c3d6601451a41a3b253952/_ListPaging.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/3b99859745664a5880c3d6601451a41a3b253952/_ListPaging.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/9005a596dd1b5b41f4e44a27f98f1a14f572673d/_ListPaging.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/9005a596dd1b5b41f4e44a27f98f1a14f572673d/_ListPaging.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/67351329dbdfe20aab984b0dc0b95a3b6c295b86/_Map.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/67351329dbdfe20aab984b0dc0b95a3b6c295b86/_Map.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/67351329dbdfe20aab984b0dc0b95a3b6c295b86/_Media.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/67351329dbdfe20aab984b0dc0b95a3b6c295b86/_Media.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/975929b60bfb40de9f412f0fd46b4decef31daec/_Search.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/975929b60bfb40de9f412f0fd46b4decef31daec/_Search.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/67351329dbdfe20aab984b0dc0b95a3b6c295b86/_Sheet.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/67351329dbdfe20aab984b0dc0b95a3b6c295b86/_Sheet.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/9d8687ee08634c2f885e6e295b3aff4074cef34e/_Sheet.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/9d8687ee08634c2f885e6e295b3aff4074cef34e/_Sheet.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/45d1faefe700ba634008d063d86b629fdeb52259/_Slider.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/45d1faefe700ba634008d063d86b629fdeb52259/_Slider.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/ada2b7b3bb91510fa525b4cc104293b13b4cf8c4/_Table.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/ada2b7b3bb91510fa525b4cc104293b13b4cf8c4/_Table.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/0a1b2904084ff4f16ce15dae6da0a9d7ee60a41c/_all.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/0a1b2904084ff4f16ce15dae6da0a9d7ee60a41c/_all.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/eb6ad7f1a29e8b859b7794ee0cc47d9dfdb9e804/_all.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/eb6ad7f1a29e8b859b7794ee0cc47d9dfdb9e804/_all.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/a0e1f8f64bc26f348558d5596d4bd1178cf8b01e/_default.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/a0e1f8f64bc26f348558d5596d4bd1178cf8b01e/_default.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/app.scss" afterPath="$PROJECT_DIR$/resources/sass/app.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="pinBoard.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -111,10 +233,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EditWhiteBoardController.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="EditWhiteBoardController.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controller/whiteboard/EditWhiteBoardController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="17" selection-start="1416" selection-end="1416" vertical-scroll-proportion="0.74159294">
+            <state line="42" column="17" selection-start="1416" selection-end="1416" vertical-scroll-proportion="0.0">
               <folding>
                 <marker date="1374215785935" expanded="true" signature="1793:1806" placeholder="..." />
               </folding>
@@ -122,10 +244,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WhiteBoardController.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controller/whiteboard/WhiteBoardController.js">
+      <file leaf-file-name="app.scss" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/sass/app.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="6" selection-start="615" selection-end="615" vertical-scroll-proportion="0.0">
+            <state line="9" column="1" selection-start="351" selection-end="351" vertical-scroll-proportion="0.2766727">
               <folding />
             </state>
           </provider>
@@ -254,6 +376,60 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="pinBoard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pinBoard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pinBoard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pinBoard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pinBoard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pinBoard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pinBoard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".sass-cache" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -405,13 +581,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26439393" sideWeight="0.67001116" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26439393" sideWeight="0.67001116" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
@@ -501,11 +677,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sass/app.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="234" column="1" selection-start="5309" selection-end="5309" vertical-scroll-proportion="0.9609644" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controller/MainController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="41" column="89" selection-start="1224" selection-end="1298" vertical-scroll-proportion="0.0">
@@ -587,10 +758,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controller/whiteboard/EditWhiteBoardController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="17" selection-start="1416" selection-end="1416" vertical-scroll-proportion="0.74159294">
+        <state line="42" column="17" selection-start="1416" selection-end="1416" vertical-scroll-proportion="0.0">
           <folding>
             <marker date="1374215785935" expanded="true" signature="1793:1806" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="1" selection-start="351" selection-end="351" vertical-scroll-proportion="0.2766727">
+          <folding />
         </state>
       </provider>
     </entry>

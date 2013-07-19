@@ -19,6 +19,7 @@ Ext.define('PinBoard.store.WhiteBoards', {
     config: {
         model: 'PinBoard.model.WhiteBoard',
         autoLoad: true,
+        storeId:'wbStorage',
         proxy: {
             type: 'localstorage',
             id: 'whiteBoardItemsStore'

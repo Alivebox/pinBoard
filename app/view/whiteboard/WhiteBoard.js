@@ -31,6 +31,7 @@ Ext.define('PinBoard.view.whiteboard.WhiteBoard', {
     createMenuContainer: function(){
         var tmpMenuContainer = {
             xtype: 'container',
+            docked: 'bottom',
             items: [
                 {
                     xtype:'button',
@@ -53,7 +54,7 @@ Ext.define('PinBoard.view.whiteboard.WhiteBoard', {
         var tmpList = {
             xtype: 'whiteboardlist',
             itemId: 'whiteBoardList',
-            store: Ext.getStore("WhiteBoards"),
+            store: Ext.getStore("wbStorage"),
             listeners: {
                 scope: this,
                 itemtap: this.onEditWhiteBoard,

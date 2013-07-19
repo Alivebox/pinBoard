@@ -63,7 +63,7 @@ Ext.define('PinBoard.controller.whiteboard.NewWhiteBoardController', {
     },
 
     addWhiteBoardToStore: function(argWhiteBoard){
-        var tmpStore = Ext.getStore('WhiteBoards');
+        var tmpStore = Ext.getStore('wbStorage');
         if( !tmpStore.findRecord("id",argWhiteBoard.get("id")) ){
             tmpStore.add(argWhiteBoard);
         }
@@ -74,6 +74,11 @@ Ext.define('PinBoard.controller.whiteboard.NewWhiteBoardController', {
                 direction: 'DESC'
             }
         ]);
+    },
+
+    cleanView: function(){
+        this.getNewWhiteBoard().down('#whiteBoardName').setValue(''),
+        this.getNewWhiteBoard().down('#photoUrl').setValue('')
     },
 
     getMainController: function(){

@@ -51,14 +51,13 @@ Ext.define('PinBoard.view.whiteboard.NewWhiteBoard', {
                     xtype: 'textfield',
                     label: 'Photo Url',
                     itemId: 'photoUrl',
-                    value: 'http://www.mynitor.com/images/google_whiteboard.jpg',
                     placeHolder: 'Click on take a picture button',
+                    readOnly: true,
                     scope: this
                 },{
                     xtype: 'textfield',
                     label: 'White Board Name',
                     itemId: 'whiteBoardName',
-                    value: 'My new white board',
                     placeHolder: 'Add a name',
                     scope: this
                 },{

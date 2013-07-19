@@ -18,11 +18,15 @@ Ext.define('PinBoard.controller.whiteboard.WhiteBoardController', {
 
     onNewWhiteBoard: function(){
         this.getMainController().showNewWhiteBoard();
+        this.getNewController().cleanView();
     },
 
     onRefreshList:function(){
-        var tmpStore = Ext.getStore('WhiteBoards');
+        var tmpStore = Ext.getStore('wbStorage');
         tmpStore.sync();
+//        if(tmpStore != undefined && tmpStore != null){
+//            this.getWhiteBoard().whiteBoardList.store = tmpStore;
+//        }
     },
 
     onEditWhiteBoard: function(argWhiteBoard){
@@ -31,5 +35,9 @@ Ext.define('PinBoard.controller.whiteboard.WhiteBoardController', {
 
     getMainController: function(){
         return this.getApplication().getController('MainController');
+    },
+
+    getNewController: function(){
+        return this.getApplication().getController('whiteboard.NewWhiteBoardController');
     }
 });

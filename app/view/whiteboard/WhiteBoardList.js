@@ -20,9 +20,8 @@ Ext.define("PinBoard.view.whiteboard.WhiteBoardList", {
                 '</pre>',
         itemTpl:
             '<pre>' +
-                '<div>' +
-                '<label class="list-item-narrative">{text}</label>' +
-                '<img class="list-item-icon" src="resources/images/goto_up.png"/>' +
+                '<div style="height:10px;">' +
+                '<label>{name}</label>' +
                 '</div>' +
                 '</pre>'
     }

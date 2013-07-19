@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="785d66a5-4ff9-48bc-8753-3448f775c049" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/whiteboard/EditWhiteBoard.js" afterPath="$PROJECT_DIR$/app/view/whiteboard/EditWhiteBoard.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controller/whiteboard/EditWhiteBoardController.js" afterPath="$PROJECT_DIR$/app/controller/whiteboard/EditWhiteBoardController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/Main.js" afterPath="$PROJECT_DIR$/app/view/Main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/whiteboard/NewWhiteBoard.js" afterPath="$PROJECT_DIR$/app/view/whiteboard/NewWhiteBoard.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/whiteboard/WhiteBoard.js" afterPath="$PROJECT_DIR$/app/view/whiteboard/WhiteBoard.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
     </list>
@@ -27,7 +24,7 @@
     <file path="$PROJECT_DIR$/../PrototypesMobile/resources/stylesheets/view/common/Common.scss" changelist="785d66a5-4ff9-48bc-8753-3448f775c049" time="1374185698050" ignored="false" />
     <file path="$PROJECT_DIR$/../PrototypesMobile/app/view/Main.js" changelist="785d66a5-4ff9-48bc-8753-3448f775c049" time="1374180224063" ignored="false" />
     <file path="/NewWhiteBoardController.js" changelist="785d66a5-4ff9-48bc-8753-3448f775c049" time="1374179811394" ignored="false" />
-    <file path="/EditWhiteBoardController.js" changelist="785d66a5-4ff9-48bc-8753-3448f775c049" time="1374214013588" ignored="false" />
+    <file path="/EditWhiteBoardController.js" changelist="785d66a5-4ff9-48bc-8753-3448f775c049" time="1374215785396" ignored="false" />
     <file path="/MainController.js" changelist="785d66a5-4ff9-48bc-8753-3448f775c049" time="1374179563451" ignored="false" />
     <file path="/WhiteBoardController.js" changelist="785d66a5-4ff9-48bc-8753-3448f775c049" time="1374179815093" ignored="false" />
     <file path="/New.js" changelist="785d66a5-4ff9-48bc-8753-3448f775c049" time="1374178894910" ignored="false" />
@@ -38,6 +35,7 @@
     <file path="/Dummy.txt" changelist="785d66a5-4ff9-48bc-8753-3448f775c049" time="1374207852080" ignored="false" />
     <file path="/EditWhiteBoard.js" changelist="785d66a5-4ff9-48bc-8753-3448f775c049" time="1374213651860" ignored="false" />
     <file path="/NewWhiteBoard.js" changelist="785d66a5-4ff9-48bc-8753-3448f775c049" time="1374214439749" ignored="false" />
+    <file path="/WhiteBoard.js" changelist="785d66a5-4ff9-48bc-8753-3448f775c049" time="1374214897116" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,16 +58,27 @@
       <file leaf-file-name="WhiteBoard.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/view/whiteboard/WhiteBoard.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="41" selection-start="1268" selection-end="1268" vertical-scroll-proportion="0.0">
+            <state line="56" column="44" selection-start="1603" selection-end="1614" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WhiteBoardList.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/view/whiteboard/WhiteBoardList.js">
+      <file leaf-file-name="WhiteBoards.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/store/WhiteBoards.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="13" selection-start="329" selection-end="329" vertical-scroll-proportion="0.0">
+            <state line="19" column="35" selection-start="446" selection-end="446" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WhiteBoard.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/model/WhiteBoard.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="31" selection-start="477" selection-end="485" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -78,16 +87,7 @@
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="77" column="23" selection-start="2120" selection-end="2120" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainController.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controller/MainController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="89" selection-start="1224" selection-end="1298" vertical-scroll-proportion="0.0">
+            <state line="26" column="19" selection-start="861" selection-end="861" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -102,13 +102,31 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="NewWhiteBoardController.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controller/whiteboard/NewWhiteBoardController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="69" column="24" selection-start="2031" selection-end="2031" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="EditWhiteBoardController.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controller/whiteboard/EditWhiteBoardController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="52" selection-start="922" selection-end="922" vertical-scroll-proportion="0.84247786">
+            <state line="42" column="17" selection-start="1416" selection-end="1416" vertical-scroll-proportion="0.74159294">
               <folding>
-                <marker date="1374214570051" expanded="true" signature="1575:1588" placeholder="..." />
+                <marker date="1374215785935" expanded="true" signature="1793:1806" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WhiteBoardController.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controller/whiteboard/WhiteBoardController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="6" selection-start="615" selection-end="615" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -160,10 +178,10 @@
         <option value="$PROJECT_DIR$/app/controller/whiteboard/WhiteBoardController.js" />
         <option value="$PROJECT_DIR$/app/controller/whiteboard/NewWhiteBoardController.js" />
         <option value="$PROJECT_DIR$/app/view/Main.js" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/app/view/whiteboard/EditWhiteBoard.js" />
         <option value="$PROJECT_DIR$/app/view/whiteboard/NewWhiteBoard.js" />
         <option value="$PROJECT_DIR$/app/view/whiteboard/WhiteBoard.js" />
+        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/app/controller/whiteboard/EditWhiteBoardController.js" />
       </list>
     </option>
@@ -483,35 +501,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/store/WhiteBoards.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="31" selection-start="644" selection-end="644" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/sass/app.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="234" column="1" selection-start="5309" selection-end="5309" vertical-scroll-proportion="0.9609644" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controller/whiteboard/WhiteBoardController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="13" selection-start="545" selection-end="545" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/model/WhiteBoard.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="27" selection-start="400" selection-end="404" vertical-scroll-proportion="0.123128116">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controller/whiteboard/NewWhiteBoardController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="42" selection-start="993" selection-end="993" vertical-scroll-proportion="-0.3294509">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controller/MainController.js">
@@ -528,20 +520,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/whiteboard/NewWhiteBoard.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="41" selection-start="2200" selection-end="2200" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="23" selection-start="2120" selection-end="2120" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/view/Main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="13" selection-start="97" selection-end="97" vertical-scroll-proportion="0.0">
@@ -551,23 +529,67 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/view/whiteboard/WhiteBoardList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="13" selection-start="329" selection-end="329" vertical-scroll-proportion="0.0">
+        <state line="14" column="46" selection-start="365" selection-end="376" vertical-scroll-proportion="0.4117647">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/model/WhiteBoard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="31" selection-start="477" selection-end="485" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/store/WhiteBoards.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="35" selection-start="446" selection-end="446" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/whiteboard/NewWhiteBoard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="41" selection-start="2200" selection-end="2200" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controller/whiteboard/WhiteBoardController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="6" selection-start="615" selection-end="615" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controller/whiteboard/NewWhiteBoardController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="24" selection-start="2031" selection-end="2031" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="19" selection-start="861" selection-end="861" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/view/whiteboard/WhiteBoard.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="41" selection-start="1268" selection-end="1268" vertical-scroll-proportion="0.0">
+        <state line="56" column="44" selection-start="1603" selection-end="1614" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controller/whiteboard/EditWhiteBoardController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="52" selection-start="922" selection-end="922" vertical-scroll-proportion="0.84247786">
+        <state line="42" column="17" selection-start="1416" selection-end="1416" vertical-scroll-proportion="0.74159294">
           <folding>
-            <marker date="1374214570051" expanded="true" signature="1575:1588" placeholder="..." />
+            <marker date="1374215785935" expanded="true" signature="1793:1806" placeholder="..." />
           </folding>
         </state>
       </provider>

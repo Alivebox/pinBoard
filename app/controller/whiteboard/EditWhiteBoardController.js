@@ -7,6 +7,7 @@ Ext.define('PinBoard.controller.whiteboard.EditWhiteBoardController', {
 
     config: {
         refs: {
+            whiteBoard: 'whiteboard',
             editWhiteBoard: 'editwhiteboard'
         },
 
@@ -37,6 +38,9 @@ Ext.define('PinBoard.controller.whiteboard.EditWhiteBoardController', {
     },
 
     onTapEditBack:function(){
+        this.getWhiteBoard().down('#newWhiteBoardList').setStore(Ext.getStore('WhiteBoards'));
+        this.getWhiteBoard().down('#newWhiteBoardList').refresh();
+        debugger;
         this.getMainController().showWhiteBoard();
         this.getWhiteController().onRefreshList();
     },

@@ -13,8 +13,15 @@ Ext.define('PinBoard.controller.whiteboard.EditWhiteBoardController', {
         control : {
             editWhiteBoard:{
                 tapEditBack: 'onTapEditBack'
+            },
+            app: {
+                appEvent: 'onPinPointed'
             }
         }
+    },
+
+    onPinPointed: function(){
+        debugger;
     },
 
     onTapEditBack:function(){
